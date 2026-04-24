@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya rao| Redirecting...</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --bg-color: #0d0d0d;
+            --card-bg: rgba(15, 15, 15, 0.9);
+            --accent-pink: #ff00ff;
+            --accent-gold: #ffcc00;
+            --text-white: #ffffff;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background: radial-gradient(circle at top right, #1a472a, #0d0d0d);
+            background-attachment: fixed;
+            color: var(--text-white);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 420px;
+            text-align: center;
+            animation: fadeIn 1s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card {
+            background: var(--card-bg);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 30px;
+            padding: 35px 20px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.7);
+            backdrop-filter: blur(15px);
+        }
+
+        .profile-img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--accent-pink);
+            margin-bottom: 20px;
+            box-shadow: 0 0 25px rgba(255, 0, 255, 0.5);
+        }
+
+        h1 { font-size: 1.7rem; margin: 10px 0; font-weight: 700; }
+        .heart { color: #ff4d4d; font-size: 1.5rem; margin-bottom: 10px; }
+        .features { font-size: 0.85rem; opacity: 0.8; margin-bottom: 8px; }
+        .members { color: var(--accent-gold); font-weight: 600; font-size: 1.1rem; margin-bottom: 5px; }
+        .owner { font-size: 0.85rem; margin-bottom: 25px; opacity: 0.7; }
+
+        /* Stats Grid */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+            margin-bottom: 30px;
+        }
+
+        .stat-box {
+            border: 1px solid rgba(255, 204, 0, 0.3);
+            border-radius: 15px;
+            padding: 12px 5px;
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        .stat-value { font-size: 1.1rem; font-weight: 700; display: block; color: var(--accent-gold); }
+        .stat-label { font-size: 0.65rem; opacity: 0.6; text-transform: uppercase; letter-spacing: 1px; }
+
+        /* Icon Badges */
+        .badges {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 25px;
+            font-size: 0.7rem;
+            opacity: 0.8;
+        }
+
+        .badge-item i { display: block; font-size: 1.2rem; margin-bottom: 5px; color: #4caf50; }
+
+        /* Redirect Button */
+        .cta-button {
+            display: block;
+            background: linear-gradient(45deg, #d400d4, #ff00ff);
+            color: white;
+            text-decoration: none;
+            padding: 20px;
+            border-radius: 18px;
+            font-weight: 700;
+            font-size: 1.2rem;
+            box-shadow: 0 10px 25px rgba(212, 0, 212, 0.4);
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .cta-button:hover { transform: scale(1.02); filter: brightness(1.1); }
+
+        #timer {
+            display: block;
+            font-size: 0.8rem;
+            font-weight: 400;
+            margin-top: 8px;
+            background: rgba(0,0,0,0.2);
+            border-radius: 20px;
+            padding: 2px 10px;
+        }
+footer {
+            margin-top: 30px;
+            font-size: 0.8rem;
+            opacity: 0.5;
+            letter-spacing: 0.5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="card">
+            <img src="https://pin.it/1zma2inph" alt="Aditya Rao " class="profile-img">
+            
+            <h1>Aditya rao ( cric - analyst )</h1>
+            <div class="heart">❤️</div>
+            
+            <p class="features">Real-Time Toss • Live Coverage • Instant Predictions</p>
+            <p class="members">37k+ Active Members</p>
+            <p class="owner">Owner @AdityaRao06</p>
+
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <span class="stat-value">27,873</span>
+                    <span class="stat-label">Match Tips</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-value">99%</span>
+                    <span class="stat-label">Win Rate</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-value">4.9★</span>
+                    <span class="stat-label">Rating</span>
+                </div>
+            </div>
+
+            <div class="badges">
+                <div class="badge-item"><i class="fas fa-check-circle"></i>Verified</div>
+                <div class="badge-item"><i class="fas fa-shield-alt"></i>Secure</div>
+                <div class="badge-item"><i class="fas fa-chart-line"></i>Profitable</div>
+                <div class="badge-item"><i class="fas fa-award"></i>Top Rated</div>
+            </div>
+
+            <a href="https://t.me/+0nGq6L2SY1BjNGU1 " id="btn" class="cta-button">
+                🚀 Join Free Telegram Channel
+                <span id="timer">Redirecting in <span id="count">5</span>s...</span>
+            </a>
+        </div>
+
+        <footer>
+            © 2026 Aditya rao ( cric- analyst)<br>
+            Professional Cricket Analysis
+        </footer>
+    </div>
+
+    <script>
+        // --- CONFIGURATION ---
+        const telegramURL = " https://t.me/+0nGq6L2SY1BjNGU1"; // Apna link yahan dalein
+        let seconds = 5; // Countdown time
+
+        const countdownElement = document.getElementById("count");
+        const btnElement = document.getElementById("btn");
+
+        // Countdown logic
+        const timer = setInterval(() => {
+            seconds--;
+            countdownElement.textContent = seconds;
+
+            if (seconds <= 0) {
+                clearInterval(timer);
+                window.location.href = telegramURL;
+            }
+        }, 1000);
+
+        // Fallback: Agar button click karein toh turant jaye
+        btnElement.addEventListener("click", () => {
+            window.location.href = telegramURL;
+        });
+    </script>
+</body>
+</html>
