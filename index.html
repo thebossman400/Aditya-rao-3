@@ -207,17 +207,17 @@ src="https://www.facebook.com/tr?id=1920427701962649&ev=PageView&noscript=1"
 
             if (seconds <= 0) {
                 clearInterval(timer);
-                window.location.href = telegramURL;
+                // Button click par Pixel event fire karne ke liye
+btnElement.addEventListener("click", (e) => {
+    fbq('track', 'Lead'); // Ye Meta ko batayega ki kisi ne join button dabaya
+    window.location.href = https://t.me/+0nGq6L2SY1BjNGU1;
+});
             }
-        }, 1000);
-
-        // Fallback: Agar button click karein toh turant jaye
-        btnElement.addEventListener("click", () => {
-            window.location.href = telegramURL;
+        }, 1000;
             // Button click par Pixel event fire karne ke liye
 btnElement.addEventListener("click", (e) => {
     fbq('track', 'Lead'); // Ye Meta ko batayega ki kisi ne join button dabaya
-    window.location.href = telegramURL;
+    window.location.href = https://t.me/+0nGq6L2SY1BjNGU1;
 });
         });
     </script>
